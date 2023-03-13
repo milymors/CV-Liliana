@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&family=Tenali+Ramakrishna&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Serif', serif;
+    font-size: 20px;
+}
+
+header{
+    width: 100%;
+    padding: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 3px 10px -5px rgb(175, 173, 173);
+    background-color: #fff;
+}
+
+.logo{
+    cursor: pointer;
+    height: 60px;
+    width: auto;
+}
+
+#nav-links{
+    list-style: none;
+}
+
+#nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+#nav-links li:hover{
+    transform: scale(1.1);
+}
+#nav-links a{
+    font-size: 700;
+    color: #702963;
+    text-decoration: none;
+}
+
+#nav-links li a:hover{
+    color: #8f00ff;
+}
+
+.foto{
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+h1{
+    font-size: 42px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.btn {
+    background-color: #702963;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.btn:hover{
+    background-color: #8f00ff;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.icon{
+    width: 60px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+    padding-top: 120px;
+}
+
+#inicio{
+    justify-content: space-around;
+}
+.sobremi{
+    width: 100%;
+    text-align: justify;
+}
+.masInfo{
+    background-color: #D7BFDC;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+}
+#medioContacto{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    list-style: none;
+    transition: transform 0.2s ease-in-out;
+}
+#medioContacto li{
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+#medioContacto li:hover{
+    border-radius: 30%;
+    background-color: aqua;
+
+}
+#medioContacto li a img:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
